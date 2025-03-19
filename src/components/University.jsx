@@ -30,7 +30,7 @@ export default function CollegeFinder() {
           Find Your Perfect College
         </h1>
         <p className="text-lg text-gray-600 dark:text-white">
-          Search and filter through top engineering colleges
+          Search and filter through top engineering University
         </p>
       </motion.div>
 
