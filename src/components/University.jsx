@@ -27,7 +27,7 @@ export default function CollegeFinder() {
         className="text-center mb-12"
       >
         <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-          Find Your Perfect College
+          Find Your Perfect University
         </h1>
         <p className="text-lg text-gray-600 dark:text-white">
           Search and filter through top engineering University
