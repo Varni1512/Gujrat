@@ -1,672 +1,672 @@
 export const colleges = [
-    {
-      id: 1,
-      name: "Adani University",
-      city: "Ahmedabad",
-      established: 2022,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 300,
-      website: "https://www.adaniuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 2,
-      name: "Ahmedabad University",
-      city: "Ahmedabad",
-      established: 2009,
-      branches: ["CE", "IT", "ECE"],
-      seats: 400,
-      website: "https://www.ahduni.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 3,
-      name: "Anant National University",
-      city: "Ahmedabad",
-      established: 2016,
-      branches: ["CIVIL", "DESIGN"],
-      seats: 200,
-      website: "https://www.anu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 4,
-      name: "Atmiya University",
-      city: "Rajkot",
-      established: 2018,
-      branches: ["CE", "MECH", "ECE"],
-      seats: 350,
-      website: "https://www.atmiya.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 5,
-      name: "Bhagwan Mahavir University",
-      city: "Surat",
-      established: 2001,
-      branches: ["CE", "MECH", "CIVIL", "AUTO"],
-      seats: 600,
-      website: "https://www.bmuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 6,
-      name: "C. U. Shah University",
-      city: "Surendranagar",
-      established: 2013,
-      branches: ["CE", "IT", "MECH"],
-      seats: 400,
-      website: "https://www.cushahuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 7,
-      name: "CEPT University",
-      city: "Ahmedabad",
-      established: 1962,
-      branches: ["CIVIL", "ARCH"],
-      seats: 200,
-      website: "https://www.cept.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 8,
-      name: "Charotar University of Science & Technology",
-      city: "Anand",
-      established: 2009,
-      branches: ["CE", "MECH", "CIVIL", "ECE"],
-      seats: 500,
-      website: "https://www.charusat.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 9,
-      name: "CVM University",
-      city: "Vallabh Vidyanagar",
-      established: 2019,
-      branches: ["CE", "IT", "MECH"],
-      seats: 450,
-      website: "https://www.cvmuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 10,
-      name: "Dhirubhai Ambani Institute of Information and Communication Technology",
-      city: "Gandhinagar",
-      established: 2001,
-      branches: ["CE", "IT", "ECE"],
-      seats: 300,
-      website: "https://www.daiict.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 11,
-      name: "DharmSinh Desai University",
-      city: "Nadiad",
-      established: 1968,
-      branches: ["CE", "MECH", "CIVIL", "ECE"],
-      seats: 500,
-      website: "https://www.ddu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 12,
-      name: "Dr. Subhash University",
-      city: "Junagadh",
-      established: 2010,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 350,
-      website: "https://www.drsubhashuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 13,
-      name: "Darshan University",
-      city: "Rajkot",
-      established: 2009,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 400,
-      website: "https://www.darshan.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 14,
-      name: "Ganpat University",
-      city: "Mehsana",
-      established: 2005,
-      branches: ["CE", "MECH", "CIVIL", "ECE"],
-      seats: 500,
-      website: "https://www.ganpatuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 15,
-      name: "Gokul Global University",
-      city: "Siddhpur",
-      established: 2018,
-      branches: ["CE", "IT", "MECH"],
-      seats: 300,
-      website: "https://www.gokuluniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 16,
-      name: "GLS University",
-      city: "Ahmedabad",
-      established: 2015,
-      branches: ["CE", "IT"],
-      seats: 350,
-      website: "https://www.glsuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 17,
-      name: "GSFC University",
-      city: "Vadodara",
-      established: 2014,
-      branches: ["CE", "MECH", "CHEM"],
-      seats: 300,
-      website: "https://www.gsfcuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 18,
-      name: "Gujarat University",
-      city: "Ahmedabad",
-      established: 1949,
-      branches: ["CE", "IT", "ECE"],
-      seats: 600,
-      website: "https://www.gujaratuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 19,
-      name: "Gujarat Technological University",
-      city: "Ahmedabad",
-      established: 2007,
-      branches: ["CE", "MECH", "CIVIL", "ECE"],
-      seats: 600,
-      website: "https://www.gtu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 20,
-      name: "Gujarat National Law University",
-      city: "Gandhinagar",
-      established: 2003,
-      branches: [],
-      seats: 0,
-      website: "https://www.gnlu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 21,
-      name: "Indian Institute of Technology Gandhinagar",
-      city: "Gandhinagar",
-      established: 2008,
-      branches: ["CE", "MECH", "CIVIL", "ECE"],
-      seats: 400,
-      website: "https://www.iitgn.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 22,
-      name: "Sardar Vallabhbhai National Institute of Technology",
-      city: "Surat",
-      established: 1961,
-      branches: ["CE", "MECH", "CIVIL", "ECE"],
-      seats: 500,
-      website: "https://www.svnit.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 23,
-      name: "Pandit Deendayal Energy University",
-      city: "Gandhinagar",
-      established: 2007,
-      branches: ["CE", "MECH", "PETRO"],
-      seats: 400,
-      website: "https://www.pdpu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 24,
-      name: "Nirma University",
-      city: "Ahmedabad",
-      established: 2003,
-      branches: ["CE", "MECH", "CIVIL", "ECE"],
-      seats: 500,
-      website: "https://www.nirmauni.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 25,
-      name: "Marwadi University",
-      city: "Rajkot",
-      established: 2016,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 400,
-      website: "https://www.marwadiuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 26,
-      name: "Parul University",
-      city: "Vadodara",
-      established: 2015,
-      branches: ["CE", "MECH", "CIVIL", "ECE"],
-      seats: 600,
-      website: "https://www.paruluniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 27,
-      name: "The Maharaja Sayajirao University of Baroda",
-      city: "Vadodara",
-      established: 1949,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 500,
-      website: "https://www.msubaroda.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 28,
-      name: "Veer Narmad South Gujarat University",
-      city: "Surat",
-      established: 1965,
-      branches: ["CE", "IT"],
-      seats: 300,
-      website: "https://www.vnsgu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 29,
-      name: "Saurashtra University",
-      city: "Rajkot",
-      established: 1967,
-      branches: ["CE", "IT"],
-      seats: 300,
-      website: "https://www.saurashtrauniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 30,
-      name: "Gujarat Vidyapith",
-      city: "Ahmedabad",
-      established: 1920,
-      branches: [],
-      seats: 0,
-      website: "https://www.gujaratvidyapith.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 31,
-      name: "Central University of Gujarat",
-      city: "Gandhinagar",
-      established: 2009,
-      branches: [],
-      seats: 0,
-      website: "https://www.cug.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 32,
-      name: "Dr. Babasaheb Ambedkar Open University",
-      city: "Ahmedabad",
-      established: 1994,
-      branches: [],
-      seats: 0,
-      website: "https://www.baou.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 33,
-      name: "Indian Institute of Information Technology Vadodara",
-      city: "Vadodara",
-      established: 2013,
-      branches: ["CE", "IT"],
-      seats: 300,
-      website: "https://www.iiitvadodara.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 34,
-      name: "Indian Institute of Information Technology Surat",
-      city: "Surat",
-      established: 2017,
-      branches: ["CE", "IT"],
-      seats: 300,
-      website: "https://www.iiitsurat.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 35,
-      name: "Institute of Infrastructure Technology Research and Management",
-      city: "Ahmedabad",
-      established: 2013,
-      branches: ["CIVIL", "MECH"],
-      seats: 300,
-      website: "https://www.iitram.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 36,
-      name: "Krantiguru Shyamji Krishna Verma Kachchh University",
-      city: "Bhuj",
-      established: 2003,
-      branches: [],
-      seats: 0,
-      website: "https://www.kskvku.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 37,
-      name: "Hemchandracharya North Gujarat University",
-      city: "Patan",
-      established: 1986,
-      branches: [],
-      seats: 0,
-      website: "https://www.ngu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 38,
-      name: "Shree Somnath Sanskrit University",
-      city: "Veraval",
-      established: 2005,
-      branches: [],
-      seats: 0,
-      website: "https://www.ssu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 39,
-      name: "Children’s University",
-      city: "Gandhinagar",
-      established: 2009,
-      branches: [],
-      seats: 0,
-      website: "https://www.childrensuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 40,
-      name: "Gujarat Forensic Sciences University",
-      city: "Gandhinagar",
-      established: 2008,
-      branches: [],
-      seats: 0,
-      website: "https://www.gfsu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 41,
-      name: "Swarnim Gujarat Sports University",
-      city: "Gandhinagar",
-      established: 2011,
-      branches: [],
-      seats: 0,
-      website: "https://www.sgsu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 42,
-      name: "Kamdhenu University",
-      city: "Gandhinagar",
-      established: 2009,
-      branches: [],
-      seats: 0,
-      website: "https://www.kamdhenuuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 43,
-      name: "Anand Agricultural University",
-      city: "Anand",
-      established: 2004,
-      branches: [],
-      seats: 0,
-      website: "https://www.aau.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 44,
-      name: "Junagadh Agricultural University",
-      city: "Junagadh",
-      established: 2004,
-      branches: [],
-      seats: 0,
-      website: "https://www.jau.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 45,
-      name: "Navsari Agricultural University",
-      city: "Navsari",
-      established: 2004,
-      branches: [],
-      seats: 0,
-      website: "https://www.nau.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 46,
-      name: "Sardarkrushinagar Dantiwada Agricultural University",
-      city: "Banaskantha",
-      established: 2004,
-      branches: [],
-      seats: 0,
-      website: "https://www.sdau.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 47,
-      name: "Rai University",
-      city: "Ahmedabad",
-      established: 2012,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 350,
-      website: "https://www.raiuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 48,
-      name: "RK University",
-      city: "Rajkot",
-      established: 2011,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 400,
-      website: "https://www.rkuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 49,
-      name: "P P Savani University",
-      city: "Surat",
-      established: 2017,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 400,
-      website: "https://www.ppsavaniuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 50,
-      name: "Sankalchand Patel University",
-      city: "Visnagar",
-      established: 2016,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 350,
-      website: "https://www.spu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 51,
-      name: "Swarrnim Startup & Innovation University",
-      city: "Gandhinagar",
-      established: 2017,
-      branches: ["CE", "IT"],
-      seats: 300,
-      website: "https://www.swarrnim.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 52,
-      name: "Uka Tarsadia University",
-      city: "Bardoli",
-      established: 2011,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 400,
-      website: "https://www.utu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 53,
-      name: "ITM Vocational University",
-      city: "Vadodara",
-      established: 2014,
-      branches: ["CE", "MECH"],
-      seats: 300,
-      website: "https://www.itmvu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 54,
-      name: "Laxmi Vidyapeeth University",
-      city: "Sarigam",
-      established: 2012,
-      branches: ["CE", "IT"],
-      seats: 300,
-      website: "https://www.laxmividyapeeth.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 55,
-      name: "Auro University",
-      city: "Surat",
-      established: 2011,
-      branches: [],
-      seats: 0,
-      website: "https://www.aurouniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 56,
-      name: "Bhakta Kavi Narsinh Mehta University",
-      city: "Junagadh",
-      established: 2015,
-      branches: [],
-      seats: 0,
-      website: "https://www.bknmu.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 57,
-      name: "Gujarat University of Transplantation Sciences",
-      city: "Ahmedabad",
-      established: 2015,
-      branches: [],
-      seats: 0,
-      website: "https://www.guts.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 58,
-      name: "Indian Institute of Public Health Gandhinagar",
-      city: "Gandhinagar",
-      established: 2015,
-      branches: [],
-      seats: 0,
-      website: "https://www.iiphg.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 59,
-      name: "Indus University",
-      city: "Ahmedabad",
-      established: 2012,
-      branches: ["CE", "MECH", "CIVIL"],
-      seats: 400,
-      website: "https://www.indusuni.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 60,
-      name: "Kadi Sarva Vishwavidyalaya",
-      city: "Gandhinagar",
-      established: 2007,
-      branches: ["CE", "IT"],
-      seats: 300,
-      website: "https://www.ksv.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 61,
-      name: "Lakulish Yoga University",
-      city: "Ahmedabad",
-      established: 2013,
-      branches: [],
-      seats: 0,
-      website: "https://www.lakulishyogauniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 62,
-      name: "Navrachana University",
-      city: "Vadodara",
-      established: 2009,
-      branches: ["CE", "MECH"],
-      seats: 300,
-      website: "https://www.navrachana.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 63,
-      name: "Plastindia International University",
-      city: "Vapi",
-      established: 2016,
-      branches: ["CHEM", "MECH"],
-      seats: 200,
-      website: "https://www.plastindiauniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 64,
-      name: "Rashtriya Raksha University",
-      city: "Gandhinagar",
-      established: 2020,
-      branches: [],
-      seats: 0,
-      website: "https://www.rru.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 65,
-      name: "Sardar Patel University",
-      city: "Vallabh Vidyanagar",
-      established: 1955,
-      branches: ["CE", "IT"],
-      seats: 300,
-      website: "https://www.spuvvn.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 66,
-      name: "Shreyarth University",
-      city: "Ahmedabad",
-      established: 2019,
-      branches: ["CE", "MECH"],
-      seats: 300,
-      website: "https://www.shreyarthuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    },
-    {
-      id: 67,
-      name: "TeamLease Skills University",
-      city: "Vadodara",
-      established: 2013,
-      branches: ["CE", "MECH"],
-      seats: 300,
-      website: "https://www.teamleaseuniversity.ac.in",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
-    }
-  ];
+  {
+    id: 1,
+    name: "Adani University",
+    city: "Ahmedabad",
+    established: 2022,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 300,
+    website: "https://www.adaniuniversity.ac.in",
+    image: "https://www.adaniuni.ac.in/wp-content/uploads/2023/03/adani_university_phd.jpg"
+  },
+  {
+    id: 2,
+    name: "Ahmedabad University",
+    city: "Ahmedabad",
+    established: 2009,
+    branches: ["CE", "IT", "ECE"],
+    seats: 400,
+    website: "https://www.ahduni.ac.in",
+    image: "https://media.ahmedabadmirror.com/am/uploads/mediaGallery/image/1719521108142.jpg-org"
+  },
+  {
+    id: 3,
+    name: "Anant National University",
+    city: "Ahmedabad",
+    established: 2016,
+    branches: ["CIVIL", "DESIGN"],
+    seats: 200,
+    website: "https://www.anu.ac.in",
+    image: "https://media.ahmedabadmirror.com/am/uploads/mediaGallery/image/1717186362249.jpg-org"
+  },
+  {
+    id: 4,
+    name: "Atmiya University",
+    city: "Rajkot",
+    established: 2018,
+    branches: ["CE", "MECH", "ECE"],
+    seats: 350,
+    website: "https://www.atmiya.ac.in",
+    image: "https://atmiyauni.ac.in/public/banner/1712585595.atmiya%20uinversity.jpg"
+  },
+  {
+    id: 5,
+    name: "Bhagwan Mahavir University",
+    city: "Surat",
+    established: 2001,
+    branches: ["CE", "MECH", "CIVIL", "AUTO"],
+    seats: 600,
+    website: "https://www.bmuniversity.ac.in",
+    image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop"
+  },
+  {
+    id: 6,
+    name: "C. U. Shah University",
+    city: "Surendranagar",
+    established: 2013,
+    branches: ["CE", "IT", "MECH"],
+    seats: 400,
+    website: "https://www.cushahuniversity.ac.in",
+    image: "https://images.shiksha.com/mediadata/images/1532598863phpR71p9R.png"
+  },
+  {
+    id: 7,
+    name: "CEPT University",
+    city: "Ahmedabad",
+    established: 1962,
+    branches: ["CIVIL", "ARCH"],
+    seats: 200,
+    website: "https://www.cept.ac.in",
+    image: "data:image/jpeg;base64,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"
+  },
+  {
+    id: 8,
+    name: "Charotar University of Science & Technology",
+    city: "Anand",
+    established: 2009,
+    branches: ["CE", "MECH", "CIVIL", "ECE"],
+    seats: 500,
+    website: "https://www.charusat.ac.in",
+    image: "data:image/jpeg;base64,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"
+  },
+  {
+    id: 9,
+    name: "CVM University",
+    city: "Vallabh Vidyanagar",
+    established: 2019,
+    branches: ["CE", "IT", "MECH"],
+    seats: 450,
+    website: "https://www.cvmuniversity.ac.in",
+    image: "https://www.cvmu.edu.in/api/image-tool/index.php?src=https://www.cvmu.edu.in/assets/uploads/faculty_college/1672750209_faculty_of_Aayrvedic.jpg&h=352&w=514"
+  },
+  {
+    id: 10,
+    name: "Dhirubhai Ambani Institute of Information and Communication Technology",
+    city: "Gandhinagar",
+    established: 2001,
+    branches: ["CE", "IT", "ECE"],
+    seats: 300,
+    website: "https://www.daiict.ac.in",
+    image: "data:image/jpeg;base64,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"
+  },
+  {
+    id: 11,
+    name: "DharmSinh Desai University",
+    city: "Nadiad",
+    established: 1968,
+    branches: ["CE", "MECH", "CIVIL", "ECE"],
+    seats: 500,
+    website: "https://www.ddu.ac.in",
+    image: "https://www.ddu.ac.in/portfolio2/large/2.jpg"
+  },
+  {
+    id: 12,
+    name: "Dr. Subhash University",
+    city: "Junagadh",
+    established: 2010,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 350,
+    website: "https://www.drsubhashuniversity.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb2vdNO3gsE6mHLdqiNq1gnjdWz7q_IzASBA&s"
+  },
+  {
+    id: 13,
+    name: "Darshan University",
+    city: "Rajkot",
+    established: 2009,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 400,
+    website: "https://www.darshan.ac.in",
+    image: "https://i.ytimg.com/vi/-KJiCuaIbCM/maxresdefault.jpg"
+  },
+  {
+    id: 14,
+    name: "Ganpat University",
+    city: "Mehsana",
+    established: 2005,
+    branches: ["CE", "MECH", "CIVIL", "ECE"],
+    seats: 500,
+    website: "https://www.ganpatuniversity.ac.in",
+    image: "https://lh5.googleusercontent.com/Q7apIsGEblRb6nG3n6RqajvNpV6sYxY994oy022J_TBZ7onxkvk-ySS6PRgEcab3jmuu59_gY-8swZI3FiNKyujfqN3koNX_kO9oFIwyu3rzmlFAlCrcsT_Cu7YcydY-eEF8unTd"
+  },
+  {
+    id: 15,
+    name: "Gokul Global University",
+    city: "Siddhpur",
+    established: 2018,
+    branches: ["CE", "IT", "MECH"],
+    seats: 300,
+    website: "https://www.gokuluniversity.ac.in",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/98/Gokul_Global_University01.jpg"
+  },
+  {
+    id: 16,
+    name: "GLS University",
+    city: "Ahmedabad",
+    established: 2015,
+    branches: ["CE", "IT"],
+    seats: 350,
+    website: "https://www.glsuniversity.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD2jf1hTO-NRBl1-gSdKoKusbujXx1tn-HqA&s"
+  },
+  {
+    id: 17,
+    name: "GSFC University",
+    city: "Vadodara",
+    established: 2014,
+    branches: ["CE", "MECH", "CHEM"],
+    seats: 300,
+    website: "https://www.gsfcuniversity.ac.in",
+    image: "https://images.shiksha.com/mediadata/images/1562753237php6yKhQ0.jpeg"
+  },
+  {
+    id: 18,
+    name: "Gujarat University",
+    city: "Ahmedabad",
+    established: 1949,
+    branches: ["CE", "IT", "ECE"],
+    seats: 600,
+    website: "https://www.gujaratuniversity.ac.in",
+    image: "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/05/12/822638-gujarat-university.jpg"
+  },
+  {
+    id: 19,
+    name: "Gujarat Technological University",
+    city: "Ahmedabad",
+    established: 2007,
+    branches: ["CE", "MECH", "CIVIL", "ECE"],
+    seats: 600,
+    website: "https://www.gtu.ac.in",
+    image: "https://www.gtu.ac.in/assets/img/gtu-building.jpg"
+  },
+  {
+    id: 20,
+    name: "Gujarat National Law University",
+    city: "Gandhinagar",
+    established: 2003,
+    branches: [],
+    seats: 0,
+    website: "https://www.gnlu.ac.in",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Administrative_Block_at_GNLU.jpg/300px-Administrative_Block_at_GNLU.jpg"
+  },
+  {
+    id: 21,
+    name: "Indian Institute of Technology Gandhinagar",
+    city: "Gandhinagar",
+    established: 2008,
+    branches: ["CE", "MECH", "CIVIL", "ECE"],
+    seats: 400,
+    website: "https://www.iitgn.ac.in",
+    image: "https://content.jdmagicbox.com/comp/gandhinagar-gujarat/u1/9999pxx79.xx79.120908104248.b5u1/catalogue/indian-institute-of-technology-gandhinagar-palaj-gandhinagar-gujarat-institutes-4jefouz.jpg"
+  },
+  {
+    id: 22,
+    name: "Sardar Vallabhbhai National Institute of Technology",
+    city: "Surat",
+    established: 1961,
+    branches: ["CE", "MECH", "CIVIL", "ECE"],
+    seats: 500,
+    website: "https://www.svnit.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVq89HVbfiNOlDlkMVA1kmXgUfOdUM_YDuiw&s"
+  },
+  {
+    id: 23,
+    name: "Pandit Deendayal Energy University",
+    city: "Gandhinagar",
+    established: 2007,
+    branches: ["CE", "MECH", "PETRO"],
+    seats: 400,
+    website: "https://www.pdpu.ac.in",
+    image: "https://www.highereducationdigest.com/wp-content/uploads/2022/01/10-550x330.jpg"
+  },
+  {
+    id: 24,
+    name: "Nirma University",
+    city: "Ahmedabad",
+    established: 2003,
+    branches: ["CE", "MECH", "CIVIL", "ECE"],
+    seats: 500,
+    website: "https://www.nirmauni.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGgMMoSg2osd8IGcgQfKuUKUnY6IdSoE00IQ&s"
+  },
+  {
+    id: 25,
+    name: "Marwadi University",
+    city: "Rajkot",
+    established: 2016,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 400,
+    website: "https://www.marwadiuniversity.ac.in",
+    image: "https://www.citybit.in/wp-content/uploads/2025/01/MarwadiUniversity.jpg"
+  },
+  {
+    id: 26,
+    name: "Parul University",
+    city: "Vadodara",
+    established: 2015,
+    branches: ["CE", "MECH", "CIVIL", "ECE"],
+    seats: 600,
+    website: "https://www.paruluniversity.ac.in",
+    image: "https://paruluniversity.ac.in/app/images/post/blog/featured_image/412491Gate%20Picture%20(1).jpg"
+  },
+  {
+    id: 27,
+    name: "The Maharaja Sayajirao University of Baroda",
+    city: "Vadodara",
+    established: 1949,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 500,
+    website: "https://www.msubaroda.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MoAmgzoyehi_m_NcABImRP818ImORaUrkA&s"
+  },
+  {
+    id: 28,
+    name: "Veer Narmad South Gujarat University",
+    city: "Surat",
+    established: 1965,
+    branches: ["CE", "IT"],
+    seats: 300,
+    website: "https://www.vnsgu.ac.in",
+    image: "https://images.indianexpress.com/2024/05/vnsgu-rrr.jpg"
+  },
+  {
+    id: 29,
+    name: "Saurashtra University",
+    city: "Rajkot",
+    established: 1967,
+    branches: ["CE", "IT"],
+    seats: 300,
+    website: "https://www.saurashtrauniversity.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB7peqq4kgYY5ai-EnE-WtzAs1qSgywm3sPw&s"
+  },
+  {
+    id: 30,
+    name: "Gujarat Vidyapith",
+    city: "Ahmedabad",
+    established: 1920,
+    branches: [],
+    seats: 0,
+    website: "https://www.gujaratvidyapith.ac.in",
+    image: "https://5.imimg.com/data5/SELLER/Default/2024/8/446600537/DW/ZK/ZR/225829979/gujarat-vidyapith.webp"
+  },
+  {
+    id: 31,
+    name: "Central University of Gujarat",
+    city: "Gandhinagar",
+    established: 2009,
+    branches: [],
+    seats: 0,
+    website: "https://www.cug.ac.in",
+    image: "https://media.licdn.com/dms/image/v2/C4E1BAQGoV_bvYiVeNA/company-background_10000/company-background_10000/0/1584203273898?e=2147483647&v=beta&t=eMsrgN1Ztq5Jheb-YBVIUmdMLyTtiUeSCA-CpJxZ8vY"
+  },
+  {
+    id: 32,
+    name: "Dr. Babasaheb Ambedkar Open University",
+    city: "Ahmedabad",
+    established: 1994,
+    branches: [],
+    seats: 0,
+    website: "https://www.baou.ac.in",
+    image: "https://gcas.gujgov.edu.in/Documents/UniBanner_20231206160406298.jpeg"
+  },
+  {
+    id: 33,
+    name: "Indian Institute of Information Technology Vadodara",
+    city: "Vadodara",
+    established: 2013,
+    branches: ["CE", "IT"],
+    seats: 300,
+    website: "https://www.iiitvadodara.ac.in",
+    image: "https://images.shiksha.com/mediadata/images/1501675175phpw8G46S.jpeg"
+  },
+  {
+    id: 34,
+    name: "Indian Institute of Information Technology Surat",
+    city: "Surat",
+    established: 2017,
+    branches: ["CE", "IT"],
+    seats: 300,
+    website: "https://www.iiitsurat.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz_bzau80UJpbMn-5MCzuRbJFHghQHgEI-gQ&s"
+  },
+  {
+    id: 35,
+    name: "Institute of Infrastructure Technology Research and Management",
+    city: "Ahmedabad",
+    established: 2013,
+    branches: ["CIVIL", "MECH"],
+    seats: 300,
+    website: "https://www.iitram.ac.in",
+    image: "https://images.shiksha.com/mediadata/images/1488866609phpsbaH7K.jpeg"
+  },
+  {
+    id: 36,
+    name: "Krantiguru Shyamji Krishna Verma Kachchh University",
+    city: "Bhuj",
+    established: 2003,
+    branches: [],
+    seats: 0,
+    website: "https://www.kskvku.ac.in",
+    image: "https://kskvku.digitaluniversity.ac/user/pages/images/slides/355678922_649330733882335_8901851718970261398_n.jpg"
+  },
+  {
+    id: 37,
+    name: "Hemchandracharya North Gujarat University",
+    city: "Patan",
+    established: 1986,
+    branches: [],
+    seats: 0,
+    website: "https://www.ngu.ac.in",
+    image: "https://seminar.ngu.ac.in/download/seminar.png"
+  },
+  {
+    id: 38,
+    name: "Shree Somnath Sanskrit University",
+    city: "Veraval",
+    established: 2005,
+    branches: [],
+    seats: 0,
+    website: "https://www.ssu.ac.in",
+    image: "https://sssu.in/Images/sssu_banner.jpg"
+  },
+  {
+    id: 39,
+    name: "Children’s University",
+    city: "Gandhinagar",
+    established: 2009,
+    branches: [],
+    seats: 0,
+    website: "https://www.childrensuniversity.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_YgfpYTI1zW-DA6q-A9-u_VsJXwcbLdLheA&s"
+  },
+  {
+    id: 40,
+    name: "Gujarat Forensic Sciences University",
+    city: "Gandhinagar",
+    established: 2008,
+    branches: [],
+    seats: 0,
+    website: "https://www.gfsu.ac.in",
+    image: "https://gujarat.nfsu.ac.in/img/facility/Arial_View.jpg"
+  },
+  {
+    id: 41,
+    name: "Swarnim Gujarat Sports University",
+    city: "Gandhinagar",
+    established: 2011,
+    branches: [],
+    seats: 0,
+    website: "https://www.sgsu.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFzrtTJ3yV5uePBl9NFNtaawBsgMYR4HSZ4g&s"
+  },
+  {
+    id: 42,
+    name: "Kamdhenu University",
+    city: "Gandhinagar",
+    established: 2009,
+    branches: [],
+    seats: 0,
+    website: "https://www.kamdhenuuniversity.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdx1HESuFwQaLk2QbMXI9vAwjH1qJioh6VcQ&s"
+  },
+  {
+    id: 43,
+    name: "Anand Agricultural University",
+    city: "Anand",
+    established: 2004,
+    branches: [],
+    seats: 0,
+    website: "https://www.aau.ac.in",
+    image: "https://www.aau.in/sites/default/files/imagecache/original-image/BACA_1.jpg"
+  },
+  {
+    id: 44,
+    name: "Junagadh Agricultural University",
+    city: "Junagadh",
+    established: 2004,
+    branches: [],
+    seats: 0,
+    website: "https://www.jau.ac.in",
+    image: "https://education.icar.gov.in/univ_info_file/143-000Bhavan_1.jpg"
+  },
+  {
+    id: 45,
+    name: "Navsari Agricultural University",
+    city: "Navsari",
+    established: 2004,
+    branches: [],
+    seats: 0,
+    website: "https://www.nau.ac.in",
+    image: "https://education.icar.gov.in/univ_info_file/142-000uni_bhavan_1.jpg"
+  },
+  {
+    id: 46,
+    name: "Sardarkrushinagar Dantiwada Agricultural University",
+    city: "Banaskantha",
+    established: 2004,
+    branches: [],
+    seats: 0,
+    website: "https://www.sdau.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzFbqm3dDturMton2MsIHJKgrenGuHilRlQ&s"
+  },
+  {
+    id: 47,
+    name: "Rai University",
+    city: "Ahmedabad",
+    established: 2012,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 350,
+    website: "https://www.raiuniversity.ac.in",
+    image: "https://images.shiksha.com/mediadata/images/1488950650phpNcj2Bw.jpeg"
+  },
+  {
+    id: 48,
+    name: "RK University",
+    city: "Rajkot",
+    established: 2011,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 400,
+    website: "https://www.rkuniversity.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7jjKmhsDJviWXSY_jI7lP9wAW6blqBH2MNA&s"
+  },
+  {
+    id: 49,
+    name: "P P Savani University",
+    city: "Surat",
+    established: 2017,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 400,
+    website: "https://www.ppsavaniuniversity.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbkytne5yQm_kVd_omjHLIHafkhHOka0q_6A&s"
+  },
+  {
+    id: 50,
+    name: "Sankalchand Patel University",
+    city: "Visnagar",
+    established: 2016,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 350,
+    website: "https://www.spu.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4BC8QawDz4-5edxBwGi2ShJJfsmnWVo4BxA&s"
+  },
+  {
+    id: 51,
+    name: "Swarrnim Startup & Innovation University",
+    city: "Gandhinagar",
+    established: 2017,
+    branches: ["CE", "IT"],
+    seats: 300,
+    website: "https://www.swarrnim.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVNea6mdFEKTo5XakJ87op68XMl0Jj9ZOdiQ&s"
+  },
+  {
+    id: 52,
+    name: "Uka Tarsadia University",
+    city: "Bardoli",
+    established: 2011,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 400,
+    website: "https://www.utu.ac.in",
+    image: "https://images.shiksha.com/mediadata/images/1533553339phpOj4OED.jpeg"
+  },
+  {
+    id: 53,
+    name: "ITM Vocational University",
+    city: "Vadodara",
+    established: 2014,
+    branches: ["CE", "MECH"],
+    seats: 300,
+    website: "https://www.itmvu.ac.in",
+    image: "https://images.shiksha.com/mediadata/images/1615572263phpc1QDra.jpeg"
+  },
+  {
+    id: 54,
+    name: "Laxmi Vidyapeeth University",
+    city: "Sarigam",
+    established: 2012,
+    branches: ["CE", "IT"],
+    seats: 300,
+    website: "https://www.laxmividyapeeth.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTalqROkPwe2DUlqIASzYVcs3-sk1n98ecyQQ&s"
+  },
+  {
+    id: 55,
+    name: "Auro University",
+    city: "Surat",
+    established: 2011,
+    branches: [],
+    seats: 0,
+    website: "https://www.aurouniversity.ac.in",
+    image: "https://images.shiksha.com/mediadata/images/1542686365phpNF97AK.jpeg"
+  },
+  {
+    id: 56,
+    name: "Bhakta Kavi Narsinh Mehta University",
+    city: "Junagadh",
+    established: 2015,
+    branches: [],
+    seats: 0,
+    website: "https://www.bknmu.ac.in",
+    image: "https://images.shiksha.com/mediadata/images/1662463166phpUg93Ut.png"
+  },
+  {
+    id: 57,
+    name: "Gujarat University of Transplantation Sciences",
+    city: "Ahmedabad",
+    established: 2015,
+    branches: [],
+    seats: 0,
+    website: "https://www.guts.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQRl5lBfGHEqr0LeWO9_3-9xB_2O6IzGjl8Q&s"
+  },
+  {
+    id: 58,
+    name: "Indian Institute of Public Health Gandhinagar",
+    city: "Gandhinagar",
+    established: 2015,
+    branches: [],
+    seats: 0,
+    website: "https://www.iiphg.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSivFzy7pEJxwLAnLI7lK76zH25SeYzaFI7Pg&s"
+  },
+  {
+    id: 59,
+    name: "Indus University",
+    city: "Ahmedabad",
+    established: 2012,
+    branches: ["CE", "MECH", "CIVIL"],
+    seats: 400,
+    website: "https://www.indusuni.ac.in",
+    image: "https://images.shiksha.com/mediadata/images/1488782102phpmEx2eI.jpeg"
+  },
+  {
+    id: 60,
+    name: "Kadi Sarva Vishwavidyalaya",
+    city: "Gandhinagar",
+    established: 2007,
+    branches: ["CE", "IT"],
+    seats: 300,
+    website: "https://www.ksv.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJMce0W3QcSsXzd64osXXayZuf9jydrDZnPg&s"
+  },
+  {
+    id: 61,
+    name: "Lakulish Yoga University",
+    city: "Ahmedabad",
+    established: 2013,
+    branches: [],
+    seats: 0,
+    website: "https://www.lakulishyogauniversity.ac.in",
+    image: "https://lyu.ac.in/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2F1.39c36e8a.webp&w=3840&q=75"
+  },
+  {
+    id: 62,
+    name: "Navrachana University",
+    city: "Vadodara",
+    established: 2009,
+    branches: ["CE", "MECH"],
+    seats: 300,
+    website: "https://www.navrachana.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbYU1-SVIGNSGkb6wsYb8UXBqzCofg61Melw&s"
+  },
+  {
+    id: 63,
+    name: "Plastindia International University",
+    city: "Vapi",
+    established: 2016,
+    branches: ["CHEM", "MECH"],
+    seats: 200,
+    website: "https://www.plastindiauniversity.ac.in",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKNYMrlRRbrn_-wMqcovqkABwLRXwGfTEV7A&s"
+  },
+  {
+    id: 64,
+    name: "Rashtriya Raksha University",
+    city: "Gandhinagar",
+    established: 2020,
+    branches: [],
+    seats: 0,
+    website: "https://www.rru.ac.in",
+    image: "https://content.jdmagicbox.com/comp/dehgam/h1/9999pxx79.xx79.220316231335.h3h1/catalogue/rashtriya-raksha-university-rru-vasna-rathore-dehgam-universities-PfiJ0BLm2o.jpg"
+  },
+  {
+    id: 65,
+    name: "Sardar Patel University",
+    city: "Vallabh Vidyanagar",
+    established: 1955,
+    branches: ["CE", "IT"],
+    seats: 300,
+    website: "https://www.spuvvn.ac.in",
+    image: "https://www.spuvvn.edu/orbit-cdn/uploads/DJI_0180-scaled-580x380.jpg"
+  },
+  {
+    id: 66,
+    name: "Shreyarth University",
+    city: "Ahmedabad",
+    established: 2019,
+    branches: ["CE", "MECH"],
+    seats: 300,
+    website: "https://www.shreyarthuniversity.ac.in",
+    image: "https://universitykart.com/Content/upload/admin/bc4lremu.5v3.jpg"
+  },
+  {
+    id: 67,
+    name: "TeamLease Skills University",
+    city: "Vadodara",
+    established: 2013,
+    branches: ["CE", "MECH"],
+    seats: 300,
+    website: "https://www.teamleaseuniversity.ac.in",
+    image: "https://www.teamleaseuniversity.ac.in/assets/images/about/campus.jpg"
+  }
+];
